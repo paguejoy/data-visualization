@@ -62,7 +62,7 @@ export default function Home() {
     toBase64(fileRef.current.files[0])      
     .then(encodedFile=> {
 
-      fetch(`${process.env.NEXT_PUBLIC_API_BASE_URI}/api/cars`,{
+      fetch(`https://lit-cove-84908.herokuapp.com/api/cars`,{
         method: 'POST',
         headers: {
 
