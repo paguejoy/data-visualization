@@ -185,7 +185,7 @@ export default function Home() {
 
 
 
-Note: toBase64() is an alogorithm to change a file to a string. It is pre defined. It is an encoding string(scheme? not sure). But there are also other methods that you can use to convert files to string and pass it to the backend (API). Backend only accepts string.
+//Note: toBase64() is an alogorithm to change a file to a string. It is pre defined. It is an encoding string(scheme? not sure). But there are also other methods that you can use to convert files to string and pass it to the backend (API). Backend only accepts string.
 
 //STEPS
 Created a fileReader() 
